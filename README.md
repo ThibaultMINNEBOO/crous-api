@@ -7,7 +7,7 @@ Crous API est un wrapper à l'API du Crous.
 ## Examples
 
 ```ts
-import { Restaurant, Menu, Region } from "crousapi";
+import { Restaurant, Menu, Region } from "crous-api";
 
 // Get all regions
 const regions = await Region.findAll();
