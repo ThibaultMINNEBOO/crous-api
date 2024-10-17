@@ -1,8 +1,8 @@
 {
-  "name": "crousjs",
+  "name": "crous-api",
   "description": "A simple API wrapper to get the menus of the Crous",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "dev": "ts-node main.ts"
   },
