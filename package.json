@@ -1,0 +1,25 @@
+{
+  "name": "crousjs",
+  "description": "A simple API wrapper to get the menus of the Crous",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node main.ts"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultMINNEBOO/crous-api.git"
+  },
+  "author": "Thibault MINNEBOO",
+  "bugs": {
+    "url": "https://github.com/ThibaultMINNEBOO/crous-api/issues"
+  },
+  "homepage": "https://github.com/ThibaultMINNEBOO/crous-api#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
