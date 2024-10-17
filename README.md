@@ -6,8 +6,8 @@ Crous API est un wrapper à l'API du Crous.
 
 ## Examples
 
-```
-import {Restaurant, Menu, Region} from "crousapi";
+```ts
+import { Restaurant, Menu, Region } from "crousapi";
 
 // Get all regions
 const regions = await Region.findAll();
@@ -25,5 +25,5 @@ const restaurant = await Restaurant.findById(1, 1); // Or see : await Restaurant
 const menus = await Menu.findAll(1, 1); // Or see : await Menu.findAll(region, restaurant);
 
 // Get a menu on a specific day
-const menu = await Menu.findByDate(1, 1, '2024-10-18'); // Or see : await Menu.findByDate(region, restaurant, new Date()); (When i wrote this, it was the 18th October 2024)
+const menu = await Menu.findByDate(1, 1, "2024-10-18"); // Or see : await Menu.findByDate(region, restaurant, new Date()); (When i wrote this, it was the 18th October 2024)
 ```
